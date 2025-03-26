@@ -1,0 +1,5 @@
+train: dataset/images/train
+val: dataset/images/valid  # If you don't have a separate validation set, you can split your training set or use the training set for validation as well.
+test: dataset/images/test
+nc: 2
+names: ['Pupil','Pupils']
